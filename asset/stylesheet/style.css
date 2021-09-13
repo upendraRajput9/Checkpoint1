@@ -1,0 +1,300 @@
+/* http://meyerweb.com/eric/tools/css/reset/ */
+/* v1.0 | 20080212 */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+.body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* custom */
+.body{
+	text-align: center;
+	/* margin-bottom: 100px; */
+}
+
+header{
+	background-color: rgb(7,22,76);
+	padding: 20px 0;
+	font-size: 30px;
+	text-decoration: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+.home{
+	color: rgb(23,187,61);
+	margin: 0 20px;
+	
+}
+.blog{
+	color: white;
+	margin: 0 20px;
+}
+
+h1{
+	font-size: 40px;
+	padding: 60px;
+}
+h2{
+	font-size: 30px;
+	
+	margin: 40px 0;
+}
+.box1{
+	display: inline-block;
+	width: 210px;
+	height: 210px;
+	background-color: rgb(144,254,169);
+	border-radius: 10px;
+	margin-bottom: 30px;
+	
+	
+}
+.box2{
+	width: 150px;
+	height: 150px;
+	background-color: rgb(154,215,201);
+	border: 10px solid rgb(88,115,226);
+	box-shadow: 0 0 0 5px black;
+	border-radius: 5px;
+	margin: 19px;
+
+}
+span{
+	display: inline-block;
+	border-radius: 50%;	
+	
+
+	
+}
+.circle{
+	display: inline;
+	margin-left: 30px;
+	font-size: 20px;	
+
+}
+.circle1{
+	display: inline-block;
+	background-color: rgb(154,215,201);
+	width: 25px;
+	height: 25px;
+	border: 2px solid black;
+	vertical-align: text-bottom;
+	
+}
+.circle2{
+	display: inline-block;
+	background-color: black;
+	width: 25px;
+	height: 25px;
+	border: 2px solid black;
+	vertical-align: text-bottom;
+}
+.circle3{
+	display: inline-block;
+	background-color: rgb(154,215,201);
+	width: 25px;
+	height: 25px;
+	border: 2px solid black;
+	vertical-align: text-bottom;
+}
+.circle4{
+	display: inline-block;
+	background-color: rgb(88,115,226);
+	width: 25px;
+	height: 25px;
+	border: 2px solid black;
+	vertical-align: text-bottom;
+}
+hr{
+	width: 700px;
+	margin-bottom: 30px;
+	margin-top: 50px;
+	border-style: dotted;
+}
+.parent{
+	display: inline-block;
+	width: 660px;
+	border: 2px solid black;
+	font: 0 auto;
+	margin-bottom: 30px;
+}
+.child{
+	
+	display: inline-block;
+	width: 200px;
+	height: 180px;
+	background-color: rgb(218,224,250);
+	margin: 10px;
+}
+.parent1{
+	display: inline-block;
+	width: 672px;
+	border: 2px solid black;
+	font: 0 auto;
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+.child1{
+	display: inline-block;
+	width: 200px;
+	height: 180px;
+	background-color: rgb(218,224,250);
+	margin: 10px;
+	border: 2px solid black;
+}
+/* blog */
+
+nav{
+	text-align: center;
+}
+
+.sec{
+	width: 1440px;
+	display: inline-block;
+	/* text-align: center; */
+	padding: 50px;
+	
+}
+.image{
+	display: inline-block;
+	width: 45%;
+}
+.image1{
+	margin-bottom: 20px;
+}
+.image2{
+	margin-bottom: 30px;
+
+}
+
+	
+.para{
+	vertical-align: initial;
+	display: inline-block;
+	width: 45%;
+	font-size: 30px;
+	padding-bottom: 45px;
+	
+}
+p{
+font-size: 32px;
+
+}	
+h3{	
+	display:block;
+	font-size: 40px;
+	margin-bottom: 0px;	
+}
+.heading1{
+	margin-bottom: 10px;
+	padding: 0 15px;
+}
+.firstpara{
+	margin-bottom: 30px;
+	padding: 0 10px;
+}
+.link{
+	display: inline-block;
+	margin-bottom: 50px;
+	color: rgb(23,187,61);
+	text-decoration: underline;
+	font-size: 30px;
+}
+
+button{
+	
+	background-color: rgb(23,187,61);
+	color: white;
+	border-radius: 20px;
+	border: none;
+	width: 120px;
+	height: 35px;
+	
+}
+h3{
+	color: rgb(7,22,76);
+}
+
+
+.para2{
+	margin-bottom: 35px;
+}
+.heading{
+	margin-bottom: 10px;
+}
+
+.para3{
+	margin-top: 10px;
+}
+
+
+
+.article-3{
+	display: inline-block;
+	width: 45%;
+	
+
+}
+.article-4{
+	display: inline-block;
+	width: 45%;
+	
+	
+}
+.link1{
+	
+	color: rgb(23,187,61);
+	text-decoration: underline;
+	font-size: 30px;
+	
+}
+
+
