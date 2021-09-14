@@ -159,9 +159,14 @@ hr{
 	height: 180px;
 	background-color: rgb(218,224,250);
 	margin: 10px;
+	
 }
-
-
+.parent1{
+	width: 672px;
+}
+.child1{
+	border: 2px solid black;
+}
 nav{
 	text-align: center;
 }
@@ -244,7 +249,7 @@ h3{
 	margin-top: 10px;
 }
 
-
+ 
 
 .article-3{
 	display: inline-block;
